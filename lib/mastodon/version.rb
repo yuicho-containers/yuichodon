@@ -21,7 +21,7 @@ module Mastodon
     end
 
     def suffix
-      "+yuichodon#{ENV.fetch('MASTODON_VERSION_SUFFIX', '')}"
+      '+yuicho_230813'
     end
 
     def to_a
